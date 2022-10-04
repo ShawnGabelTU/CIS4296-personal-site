@@ -15,7 +15,7 @@
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Arial', sans-serif;
             scroll-behavior: smooth;
         }
 
@@ -82,7 +82,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Shawn Gabel<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -104,19 +104,14 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Shawn!</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
                 University.</h5>
         </div>
         <div class="row my-4">
-            <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
+            
 
             <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="C#" /></div>
@@ -128,7 +123,8 @@
             <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="ASP.NET" /></div>           
                      <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
+                    title="Microsoft SQL Server" />
+            </div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="MongoDB" /></div>
 
         </div>
@@ -156,40 +152,71 @@
             <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Client Resource Management System - Philadelphia ReCast Program</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">Worked in a 4-person team to deliver a complete client resource management system for the Philadelphia 
+ReCast Program. Completed the analysis phase of the project by conducting interviews with the client, understanding and 
+documenting their business requirements and system goals. Utilized an Object-Oriented Software Development Lifecycle approach which included Unified Modeling 
+Language (UML) tools such as Activity Diagrams, Use Cases, and User Stories.
+</p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Andriod App - Audio Books</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">Created an app in Andriod Studios. This app utilized components to create a service to allow the user to select and play audio books of their chosing. The app read from an API to grab book information. If a book was never played before, the app would stream the books audio and download the book's mp3 file in the background. If the book was previously played, the app would simply play the downloaded file instead of streaming. You could play, pause, and stop the audio. You can also use a seek-bar to go change the progress of the book. If the user closed the app the audio would continue to play in the background.</p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Video Game - Jeopardy!</h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">Created the game of Jeopardy! using C# and databases. I stored all player, question, and answer information in a database. The application I created follows the official rules of the real game with the exception that we only allow 2 players. Two players take turns answering questions found in different subject categories for various points. Some questions have have more points than others. If a player answers a question incorrectly they will loss the question points and the second player gets a chance to answer. We included the second round and final jeopardy round as well. </p>
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Courses"></i></a> </div>
     </div>
+    
+    
+    
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
+        <div class="row mx-auto">
+            <h4 class="display-4 font-weight-bold mx-auto text-center">About Me</h4>
+        </div>
+        <div class="row mx-auto mb-4">
+            <h5 class="display-5 mx-auto faded text-center">Some background about me</h5>
+        </div>
+        
+        <div class="card row w-100 justify-content-center my-3" style="width: 18rem;">
+          <img src="https://food.unl.edu/newsletters/images/mise-en-plase.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+                <h5 class="card-title">Cooking</h5>
+                <p class="card-text">I really enjoy cooking epsecially when I try to make new recipes. Something I learned was that you cooking is a learning process and you may not always get it right on the first try. When you set that expectation you will find it more easier to go out and try and make something new. You should always strive to become better and that is what I love about cooking. </p>
+          </div>
+        </div>
+        <div class="card row w-100 justify-content-center my-3" style="width: 18rem;">
+          <img src="https://assets.kplus.com.tr/themes/travelerb2b/img/backgrounds/default-k.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+                <h5 class="card-title">Travel</h5>
+              <p class="card-text">I find traveling to be exciting and really fulfilling. You get to see a part of the world that you wouldnt typically go too or see. You get to go to places and meet new people and see how they live. You get to explore different cultures and try new foods. Thats why I love traveling so much is because of the adventure and trying new things.</p>
+          </div>
+        </div>
+        <div class="card row w-100 justify-content-center my-3" style="width: 18rem;">
+          <img src="http://greenvillejournal.com/wp-content/uploads/2021/12/stack-of-books-in-home-interior-picture-id532852345.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+                <h5 class="card-title">Reading <span class="badge bg-primary text-light">New</span></h5>
+              <p class="card-text">As you can see "new" next to reading. I have started to rediscover books again as I do love to read new stories. You have to make time to read and as a student you are sometimes stuck reading textbooks. It is also equally as important to read for fun and read books that interest you. The books I enjoy reading most are history books.</p>
+          </div>
+        </div>
+        
+        
+        <div class="row mt-5 next">
+            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Contact"></i></a> </div>
+    </div>
+    
+    
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
@@ -233,11 +260,11 @@
             <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:shawn.gabel@temple.edu" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/shawngabel/" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/ShawnGabelTU" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
